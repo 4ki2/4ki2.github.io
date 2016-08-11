@@ -1,0 +1,10 @@
+title: 式々頁
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  始めたばかり
+baseurl:
+url: "http://4ki2.github.io"
+twitter_username: 4ki2
+github_username:  4ki2
+
+markdown: kramdown
