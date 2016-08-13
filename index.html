@@ -2,22 +2,24 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+<div class="top-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="avator"></h2>
+  </div>
+  <div class="mdl-card__supporting-text">{{ site.description }}</div>
+  <ul class="mdl-card__actions mdl-card--border">
+    <li>{% include icon-github.html username=site.github_username %}</li>
+    <li>{% include icon-twitter.html username=site.twitter_username %}</li>
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>
+
+{% for post in site.posts %}
+<div class="mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+  <div class="mdl-cell mdl-cell--12-col">
+    <h2 class="mdl-card__title-text">
+      <span>{{ post.date | date: "%Y/%m/%d" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+  </div>
+</div>
+{% endfor %}

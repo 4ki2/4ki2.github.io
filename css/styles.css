@@ -1,0 +1,88 @@
+body::before {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    content: '';
+    will-change: transform;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+}
+h2 {
+  font-size: 1.5em;
+}
+.avator {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(https://aboutme.imgix.net/background/users/s/k/2/sk2_1467867173_69.jpg?w=150&amp;h=150&amp;q=40&amp;dpr=2&amp;auto=format&amp;fit=max&amp;rect=0,0,276,276);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 10px auto;
+}
+
+.top-card-wide.mdl-card {
+  text-align: center;
+  width: 512px;
+  margin: 0 auto 30px;
+}
+.top-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('https://pbs.twimg.com/profile_banners/183939271/1467198681') center / cover;
+}
+.top-card-wide > .mdl-card__title .avator {
+  border-width: 5px;
+  border-style: solid;
+  margin-top: 100px;
+}
+.top-card-wide > .mdl-card__supporting-text {
+  margin: 40px auto 0;
+}
+.top-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.mdl-layout__drawer-button {
+  position: fixed;
+}
+
+.mdl-grid {
+  max-width: 700px;
+}
+.mdl-card {
+  min-height: 3em;
+}
+.mdl-card .mdl-card__title-text {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+.mdl-card .mdl-card__title-text .post-link {
+  margin-left: 1em;
+}
+ul.mdl-card__actions {
+  margin: 0;
+}
+ul.mdl-card__actions li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+}
+.top-card-wide .icon > svg {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+.box_done:before {
+  content: "\2611\ ";
+}
+
+.box:before {
+  content: "\2610\ ";
+}
+
