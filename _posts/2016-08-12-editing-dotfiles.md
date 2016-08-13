@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  暑いけどお掃除
+title:  dotfiles分割
 date:   2016-08-12 18:17:32 +0900
 categories: editing dotfiles
 ---
@@ -18,14 +18,19 @@ categories: editing dotfiles
   - [ ] gistへ退避
 
 ## dotfiles
-分割成功。見通し良くなって嬉しい。中身の見直しはやっぱvimからだろうか。うまく使えてない機能とかあるし。
+分割した。見通し良くなって嬉しい。
+中身の見直しはやっぱりvimからだろうか？
+うまく使えてない機能とかあるし。
+neovimは敷居高い気がするので先送りする予定。
 
 ## gist
-ローカルの散文的なのはgistに投げ込む方針。基本的にpublicの予定。  
+ローカルの散文的なのはgistに投げ込む方針にした。基本的にpublicの予定。  
 https://github.com/defunkt/gist
 
-fiddleとeventmachineで遊んでた時にqiitaに投稿していた様で、知らないファイルがあってちょっと驚いた。
+このアカウントで初めてgist開いたら、知らないファイルがあってちょっとびっくり。
+fiddleとeventmachineで遊んでた時にqiitaに投稿したコードの模様。
 
 ## サイトの掃除
-awsやherokuのサイトはこの1年でほぼ整理したというかクローズしたのでやることはあまりなかった。herokuからgooleサイトへ移したサイトのドメイン名AレコードがS3だったのを失念しててS3から削除してたのを修正した。  
+awsやherokuのサイトはこの1年でほぼ整理したというかクローズしたのでやることはあまりなかった。
+herokuからgooleサイトへ移したサイトのドメイン名AレコードがS3だったのを失念しててS3から削除してたのを修正した。  
 http://hacknote.jp/archives/17094/
