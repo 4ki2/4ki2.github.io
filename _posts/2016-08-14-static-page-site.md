@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Googleサイト駆逐
+title:  GoogleサイトからS3へ
 date:   2016-08-15 01:23:38 +0900
 categories: static page site
 ---
@@ -17,21 +17,24 @@ categories: static page site
 - ローカル掃除
   - [ ] gistへ退避
 - サイトの掃除
-  - [ ] Googleサイト駆逐
+  - [ ] Googleサイト移行
 
 ## Googleサイト
 無料appsで運用中のドメインで
 複数人のITリテラシ低い編集者がいる前提で作ったgoogleサイト。
+
 - 編集する人が実はいない
 - 記述が特殊
 - 静的ページしかない
+
 ので書き直してしまった。
-進歩ないけど、とりあえずrailsでslim。
+進歩ないけどrails+slim。
 
 ## heroku
-あとはherokuに上げてお仕舞いなんだけど、
-今年、iPhone替えた時に二段階認証無効にするの忘れて、
-拙い英語で問い合わせた結果、
+あとはherokuにpushしてお仕舞いなんだけど、
+今年、iPhone替えた時に迂闊にも2段階認証を無効にするのを忘れていて、
+このアカウントからはログインできなくなってしまった。
+拙い英語で問い合わせてみたが、
 
 > I'm afraid that I did nor supply a URL. You will need to provide this information:
 >
@@ -40,8 +43,8 @@ categories: static page site
 > The Git SHA of the last commit deployed and the date of the deployment
 > If you can't provide this information then we will be unable to disable 2fa for your account.
 
-カード登録してないただの無料ユーザーなんで諦めますって経緯があった。
-新しいアカウント作ればよかったんだけど、heroku以外を探してみることに。
+カード登録してないただの無料ユーザーなんで諦めました。
+新しいアカウント作れば済む話だけど、heroku以外を探してみること。
 
 ## S3
 rails使える無料のpaas、海外のホストしか見つからなくて、
