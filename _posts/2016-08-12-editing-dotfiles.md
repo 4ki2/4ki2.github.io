@@ -2,19 +2,17 @@
 layout: post
 title:  dotfiles分割
 date:   2016-08-12 18:17:32 +0900
-categories: AWS Github Shell
+categories: blog
 tags: vim zsh s3 gist
 ---
 あれこれ片付けたい。
 
 - dotfilesの整理
-  - [x] aliases/vimrc/zshrcの分割と整理
   - [ ] zshrc見直し
   - [ ] vimrc見直し
   - [ ] tmux見直し
 - github pagesの活用
-  - [x] ブログ立ち上げ
-  - [ ] UI改修
+  - [x] UI改修
 - ローカル掃除
   - [ ] gistへ退避
 

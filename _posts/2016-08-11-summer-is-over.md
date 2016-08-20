@@ -2,18 +2,18 @@
 layout: post
 title:  jekyllを使ってみる
 date:   2016-08-11 23:52:48 +0900
-categories: Ruby GitHub Shell
+categories: blog
 tags: jekyll github-pages zsh
 ---
 あれこれ片付けたい。
 
 - dotfilesの整理
-  - [ ] aliases/vimrc/zshrcの分割と整理
+  - [x] aliases/vimrc/zshrcの分割と整理
   - [ ] zshrc見直し
   - [ ] vimrc見直し
   - [ ] tmux見直し
 - github pagesの活用
-  - [ ] ブログ立ち上げ
+  - [x] ブログ立ち上げ
   - [ ] UI改修
 
 ## github pages

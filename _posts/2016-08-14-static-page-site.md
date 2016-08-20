@@ -2,23 +2,21 @@
 layout: post
 title:  GoogleサイトからS3へ
 date:   2016-08-15 01:23:38 +0900
-categories: Google AWS Heroku
+categories: blog
 tags: google-site s3 heroku
 ---
 あれこれ片付けたい。
 
 - dotfilesの整理
-  - [x] aliases/vimrc/zshrcの分割と整理
   - [ ] zshrc見直し
   - [ ] vimrc見直し
   - [ ] tmux見直し
 - github pagesの活用
-  - [x] ブログ立ち上げ
   - [ ] UI改修
 - ローカル掃除
   - [ ] gistへ退避
 - サイトの掃除
-  - [ ] Googleサイト移行
+  - [x] Googleサイト移行
 
 ## Googleサイト
 無料appsで運用中のドメインで

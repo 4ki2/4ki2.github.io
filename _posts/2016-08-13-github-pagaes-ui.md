@@ -2,8 +2,8 @@
 layout: post
 title:  Material Design Liteを使ってみた
 date:   2016-08-13 12:39:32 +0900
-categories: GitHub Ruby Design
-tags: jekyll material-design-lite
+categories: blog
+tags: jekyll css
 ---
 あれこれ片付けたい。
 
