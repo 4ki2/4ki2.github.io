@@ -17,7 +17,7 @@ tags: jekyll
 - ローカル掃除
   - [ ] gistへ退避
 
-## jekyll
+## jekyll-assets
 slimの導入を試みたけど、jekyll3は素直に使えなそう。
 issueから辿って動かなそうなjekyll3-slimを試したけどやはり動かず。
 https://github.com/slim-template/jekyll-slim/issues/4
@@ -35,4 +35,13 @@ blogってリポジトリ作ってhugo+aceでやりたいことできそう。
 https://gohugo.io/
 https://github.com/yosssi/ace
 
-ゆるゆると進めます。
+とりあえずjekyll-assets入れたしpushして今日は終わり。
+
+```
+[4ki2/4ki2.github.io] Page build failure
+The page build failed with the following error:
+
+The tag `asset_path` on line 10 in `_includes/head.html,` is not a recognized Liquid tag. For more information, see https://help.github.com/articles/page-build-failed-unknown-tag-error.
+```
+
+あわわ...jekyll-assets除外してcommit。徒労感が。。。

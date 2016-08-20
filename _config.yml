@@ -11,12 +11,6 @@
 
 encoding: utf-8
 timezone: Japan/Tokyo
-gems:
- - jekyll-assets
-assets:
-  assets:
-    - "*.png"
-    - "*.jpg"
 title: 式々頁
 email:
 description: 式々の開発ログ
