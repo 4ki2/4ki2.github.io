@@ -2,7 +2,8 @@
 layout: post
 title:  jekyllを使ってみる
 date:   2016-08-11 23:52:48 +0900
-categories: jekyll
+categories: Ruby GitHub Shell
+tags: jekyll github-pages zsh
 ---
 あれこれ片付けたい。
 

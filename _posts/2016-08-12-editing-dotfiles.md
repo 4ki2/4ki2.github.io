@@ -2,7 +2,8 @@
 layout: post
 title:  dotfiles分割
 date:   2016-08-12 18:17:32 +0900
-categories: editing dotfiles
+categories: AWS Github Shell
+tags: vim zsh s3 gist
 ---
 あれこれ片付けたい。
 

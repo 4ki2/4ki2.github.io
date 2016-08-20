@@ -2,7 +2,8 @@
 layout: post
 title:  Material Design Liteを使ってみた
 date:   2016-08-13 12:39:32 +0900
-categories: github pagaes ui
+categories: GitHub Ruby Design
+tags: jekyll material-design-lite
 ---
 あれこれ片付けたい。
 

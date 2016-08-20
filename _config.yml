@@ -1,4 +1,4 @@
-# GitHub overrided settings
+# GitHub overrided
 # lsi: false
 # safe: true
 # source: [your repo's top level directory]
@@ -9,24 +9,15 @@
 # kramdown:
 #  math_engine: mathjax
 
-# My settings
 encoding: utf-8
 timezone: Japan/Tokyo
-# safe: false
-# incremental: true
-# verbose: true
-# regenerate: true
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
+gems:
+ - jekyll-assets
 
 title: 式々頁
 email:
-description: > # this means to ignore newlines until "baseurl:"
-  式々の開発ログ
+description: 式々の開発ログ
 baseurl:
 url: "http://4ki2.github.io"
 twitter_username: 4ki2
 github_username:  4ki2
-

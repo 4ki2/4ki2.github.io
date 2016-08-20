@@ -6,10 +6,12 @@ layout: default
   <div class="mdl-card__title">
     <h2 class="avator"></h2>
   </div>
-  <div class="mdl-card__supporting-text">{{ site.description }}</div>
+  <div class="mdl-card__supporting-text">
+    {{ site.description }}
+  </div>
   <ul class="mdl-card__actions mdl-card--border">
-    <li>{% include icon-github.html username=site.github_username %}</li>
-    <li>{% include icon-twitter.html username=site.twitter_username %}</li>
+    <li>{% include icon-github.html %}</li>
+    <li>{% include icon-twitter.html %}</li>
   </ul>
 </div>
 

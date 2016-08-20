@@ -2,7 +2,8 @@
 layout: post
 title:  GoogleサイトからS3へ
 date:   2016-08-15 01:23:38 +0900
-categories: static page site
+categories: Google AWS Heroku
+tags: google-site s3 heroku
 ---
 あれこれ片付けたい。
 
