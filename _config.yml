@@ -13,7 +13,10 @@ encoding: utf-8
 timezone: Japan/Tokyo
 gems:
  - jekyll-assets
-
+assets:
+  assets:
+    - "*.png"
+    - "*.jpg"
 title: 式々頁
 email:
 description: 式々の開発ログ
@@ -21,3 +24,4 @@ baseurl:
 url: "http://4ki2.github.io"
 twitter_username: 4ki2
 github_username:  4ki2
+
