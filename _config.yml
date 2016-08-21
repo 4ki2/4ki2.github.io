@@ -11,9 +11,9 @@
 
 encoding: utf-8
 timezone: Japan/Tokyo
-title: 式々頁
+title: 4ki2.github.io
 email:
-description: 式々の開発ログ
+description: GitHubリポジトリ一覧。このページです。
 baseurl:
 url: "http://4ki2.github.io"
 twitter_username: 4ki2
